@@ -1,0 +1,4 @@
+<svg width="800" height="800" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id='searchIcon'>
+    <circle cx="28" cy="28" r="20" fill="none" stroke="#ffffff" strokeWidth="2" />
+    <line fill="none" stroke="#ffffff" strokeWidth="2" x1="42" y1="42" x2="50" y2="50"/>
+</svg>

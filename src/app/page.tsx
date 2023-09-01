@@ -1,10 +1,13 @@
 import { MainHeader } from "./components/header/header";
 
 
-export default function Home() {
+function Home() {
+  
   return (
     <main>
       <MainHeader />
     </main>
   )
 }
+
+export default Home;
