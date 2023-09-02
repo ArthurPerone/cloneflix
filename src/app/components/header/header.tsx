@@ -9,11 +9,11 @@ export function MainHeader(){
             <div id="left">
                 <Image
                     id='logo'
-                src="/logo.png"
-                alt="Vercel Logo"
-                width={128}
-                height={44}
-                priority
+                    src="/logo.png"
+                    alt="CloneFlix Logo"
+                    width={128}
+                    height={44}
+                    priority
                 />
 
                 <nav>
@@ -48,9 +48,6 @@ export function MainHeader(){
                     <a href="#">Notificação 1</a>
                 </div>
             </div>
-
-
-
         </header>
     )
 }
