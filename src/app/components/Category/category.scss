@@ -1,0 +1,63 @@
+section{
+    margin: 3rem;
+    height: 200px;
+    #titulo:hover ~ div>.seeAll{
+       opacity: 1;     
+    }
+    #titulo{
+        svg{
+            height: 10%;
+            opacity: 0;
+            -webkit-transition: opacity 0.3s linear;
+            transition: opacity 0.15s linear;
+        }
+        #titulo-categoria{
+            width: fit-content;
+            height: fit-content;
+            color: #eee;
+            cursor: pointer;
+        }
+        #titulo-categoria:hover{
+            color: #fff;
+        }
+        #titulo-categoria:hover ~ .seeAll{
+            opacity: 1;
+            width: 5%;
+        }
+        .seeAll{
+            white-space: nowrap;
+            text-align: right;
+            text-anchor: end;
+            opacity: 0;
+            transition: opacity 0.3s linear, width 0.2s linear;
+            -webkit-transition: opacity 0.3s linear, width 0.2s linear;
+            background-size: auto 100%;
+            width: 10px;
+            height: 20%;
+            color: #54b9c5;
+            font-weight: 600;
+        }
+        .seeAll:hover{
+            width: 100px;
+            opacity: 1;
+        }
+    }
+    #conteudo{
+        height: fit-content;
+        gap: 8px;
+        img{
+            border-radius: 0.2vw;
+        }
+    }
+    div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+section:hover{
+    #see-all{
+        opacity: 1;
+    }
+}
